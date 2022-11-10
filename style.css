@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.header {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    padding: 0px;
+    margin-right: 50px;
+}
+
+.circular-image {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 10px;
+    margin-left: 50px;
+    border: 2px solid white;
+}
+
+.circular-image img {
+    width: auto;
+    height: 100%;
+    margin-left: -12px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.introduction {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+}
+
+.welcome h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.welcome p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.introduction img {
+    width: 25vw;
+    height: auto;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+button {
+    border-radius: 25px;
+}
