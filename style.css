@@ -61,29 +61,40 @@ a {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .welcome {
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    flex: 0 1 600px;
+    margin-left: 50px;
 }
 
 .welcome h1 {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
 }
 
 .welcome p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+.welcome button {
+    border: 0px solid white;
 }
 
 .introduction img {
-    width: 25vw;
     height: auto;
     padding: 10px;
+    flex: 0 1 300px;
+    margin-right: 50px;
+    height: auto;
 }
 
 .footer {
@@ -94,12 +105,18 @@ a {
 }
 
 button {
-    border-radius: 25px;
+    border-radius: 5px 5px/5px;
     background-color: #3882F6;
     color: white;
     padding: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    width: 105px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #2d67c5;
 }
 
 .information {
@@ -120,42 +137,67 @@ button {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    width: 300px;
 }
 
 .image-container img {
-    width: 100px;
+    width: 300px;
     height: auto;
+    border: 4px solid #3882F6;
+    border-radius: 5px 5px/5px;
 }
 
 .info-images {
     display: flex;
-    gap: 8px;
+    gap: 30px;
 }
 
 .info-images p {
-    font-size: 8px;
+    font-size: 18px;
 }
 
 .quote-container {
+    display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container p {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
     font-weight: 300;
+    width: 800px;
 }
 
 .cta-box {
-    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding: 10px;
     background-color: #3882F6;
 }
 
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
 .cta-box h1 {
     color: white;
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 24px;
 }
 
 .cta-box p {
     color: white;
+    margin: 0px;
+    margin-bottom: 20px;
 }
 
 .cta-box button {
